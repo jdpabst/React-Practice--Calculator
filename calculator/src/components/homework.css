@@ -1,0 +1,14 @@
+.main_homework_section{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    background: seashell;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid black;
+}

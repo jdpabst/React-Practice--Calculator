@@ -1,0 +1,55 @@
+.main_div{
+    height: 80%;
+    width: 80%;
+}
+.calculator{
+    width: 300px;
+    height: 400px;
+    background: gray;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: 100px;
+}
+
+.display{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    background: #ddd;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 6px 5px 0px 0px;
+} 
+h2{
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 10px;
+    text-align: center;
+}
+.button_container{
+    position: absolute;
+    bottom: 15px;
+    height: 70%;
+    width: 85%;
+    left: 15px;
+    border: 1px solid lime;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.button_container div{
+    height: 50px;
+    width: 50px;
+    background: lime;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    border: 1px solid white;
+    cursor: pointer;
+}
